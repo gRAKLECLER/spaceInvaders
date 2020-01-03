@@ -88,7 +88,7 @@ function drawEnemies() {
 
 function movesEnemies() {
   for (let enemy = 0; enemy < enemies.length; enemy = enemy + 1) {
-    enemies[enemy].top = enemies[enemy].top + 0;
+    enemies[enemy].top = enemies[enemy].top + 2;
   }
 }
 
