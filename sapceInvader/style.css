@@ -1,0 +1,48 @@
+#background {
+  background-image: url(./img/spaceBackground.png);
+  height: 700px;
+  width: 1200px;
+}
+
+#score {
+  color: white;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#hero {
+  background-image: url(./img/hero.png);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 600px;
+  left: 550px;
+}
+
+.enemy {
+  background-image: url(./img/enemy.png);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+
+#missiles {
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+}
+
+.missile {
+  background-image: url(./img/missile1.png);
+  height: 12px;
+  width: 10px;
+  position: absolute;
+}
+
+#enemies {
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+}
